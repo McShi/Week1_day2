@@ -30,7 +30,39 @@ namespace Week1_day2
             Console.WriteLine(partialNum);
             Console.WriteLine(someNumber);
 
-        
+            //Now let's talk about operators!
+            // + adds two operands
+            // - subtracts second operand from the first
+            // * multiplies both operands
+            // / divides first operand by the second operand
+            // % modulus - divides and checks remainder
+            // ++  increments operator by one and is used for ints
+            // -- decrements - decreases value by one
+
+            //RELATIONAL OPERATORS
+            // == checks if the vaules of two operands are equal
+            // and if they are, returns bool true
+            // != checks if the values of two operands are equal or not
+            // and if they are NOT equal, returns bool true
+
+            int jarrydAge = 29;
+            int danielAge = 32;
+            Console.WriteLine(jarrydAge == danielAge);
+
+            /*
+             *  > checks if the value of the left operand is greater than the vaule of the right operand, 
+             *  and if yes then the condition is true
+             *  
+             *  < checks if the value of the left operand is less than the value of the right operand, 
+             *  and if yes then condition is true
+             *  
+             *  >= checks if the value of the left operand is greater than or equal to the value of the right operand,
+             *  and if yes then condition becomes true
+             *  
+             *  <= checks if the value of the left operand is less than or equal to the value of the right operand,
+             *  and if yes then condition becomes true
+             *  
+             *  
         }
     }
 }
